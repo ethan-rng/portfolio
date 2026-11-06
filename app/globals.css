@@ -242,6 +242,8 @@ a:focus-visible { outline: 1px dashed var(--accent); outline-offset: 3px; }
 }
 .footer--wide { max-width: calc(var(--wide) - 48px); }
 .footer a { color: var(--muted); }
+.footer-credit { flex-basis: 100%; margin: 0; font-size: 12px; color: var(--faint); }
+.footer-credit a { color: var(--faint); }
 .footer a:hover { color: var(--text); }
 
 /* ---------------------------------------------------------------- full-screen hero */

@@ -34,4 +34,6 @@ export const footer = {
     { label: "email", href: `mailto:${site.email}` },
   ] as Link[],
   archive: { label: "archive", href: "/blog/#archive" } as Link,
+  /** The small credit line; Hack Western's link is filled in at build time (lib/hackwestern.ts). */
+  inspiredBy: { daoho: { label: "daoho.dev", href: "https://www.daoho.dev/" }, hackWestern: "hack western" },
 };

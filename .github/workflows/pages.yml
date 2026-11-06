@@ -5,6 +5,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # rebuild daily, so build-time checks (the Hack Western archive link) catch up on their own
+  schedule:
+    - cron: "17 9 * * *"
 
 permissions:
   contents: read
