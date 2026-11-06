@@ -1,5 +1,8 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = { title: "Not found" };
 
 export default function NotFound() {
   return (
