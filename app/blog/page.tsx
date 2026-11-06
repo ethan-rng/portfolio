@@ -6,7 +6,7 @@ import { archives } from "@/constants/archive";
 import { pages } from "@/constants/pages";
 import { postsIn } from "@/constants/posts";
 
-export const metadata: Metadata = { title: "Blog" };
+export const metadata: Metadata = { title: "Fun" };
 
 export default function Blog() {
   const posts = postsIn("blog");
@@ -19,7 +19,7 @@ export default function Blog() {
         </header>
         <section className="wrap section">
           <Terminal
-            title="~/blog"
+            title="~/fun"
             lines={[{ cmd: "cat motd", out: "photos, food, and things drawn in characters.\ntype help, or ls." }]}
             entries={posts.map((p) => ({ slug: p.slug, title: p.title, date: p.date }))}
             archives={archives}

@@ -196,7 +196,7 @@ a:focus-visible { outline: 1px dashed var(--accent); outline-offset: 3px; }
 .summary-rule { border: 0; border-top: 1px solid var(--line); margin: 2.4em 0; }
 .cover img { display: block; width: 100%; height: auto; }
 .cover figcaption { color: var(--faint); font-size: 13px; margin-top: 1em; }
-.facts { list-style: none; margin: 0 0 2.6em; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line); }
+.facts { list-style: none; margin: 0 0 2.6em; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 40px; border-top: 1px solid var(--line); }
 .facts li { margin: 0; padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
 .facts strong { display: block; color: var(--faint); font-weight: 400; font-size: 12px; }
 @media (max-width: 600px) { .facts { grid-template-columns: 1fr; } }

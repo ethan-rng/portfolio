@@ -26,5 +26,5 @@ export const outOfOffice: Post = {
       photos: [...reelPhotos.filter((p) => p.src.includes("elsewhere")), elsewhere.photos[0]].map((p) => ({ ...p, portrait: true })),
     },
   ],
-  back: [{ label: "all posts", href: "/blog/" }],
+  back: [{ label: "all fun", href: "/blog/" }],
 };

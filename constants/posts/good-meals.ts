@@ -22,5 +22,5 @@ export const goodMeals: Post = {
     },
     { type: "photos", photos: elsewhere.photos.filter((p) => !p.portrait), caption: "Hover one to see it in colour." },
   ],
-  back: [{ label: "all posts", href: "/blog/" }],
+  back: [{ label: "all fun", href: "/blog/" }],
 };

@@ -15,7 +15,7 @@ export const nav: Link[] = [
   { label: "home", href: "/" },
   { label: "tech. work", href: "/projects/" },
   { label: "writing", href: "/writing/" },
-  { label: "blog", href: "/blog/" },
+  { label: "fun", href: "/blog/" },
   { label: "resume", href: site.resume },
 ];
 
